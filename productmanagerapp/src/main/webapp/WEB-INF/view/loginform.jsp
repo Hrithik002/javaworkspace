@@ -7,6 +7,7 @@
 <link href ='style.css' rel ='stylesheet'>
 </head>
 <body>
+<jsp:include page="menu.jsp"></jsp:include>
 	<h3>signIn</h3>
 	<div>
 	

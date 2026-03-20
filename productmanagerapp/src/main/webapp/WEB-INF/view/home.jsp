@@ -4,11 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login Success</title>
+<title>Home</title>
+<link href ='style.css' rel ='stylesheet'>
 </head>
 <body>
-<jsp:include page= "menu.jsp"></jsp:include>
+<jsp:include page ="menu.jsp"></jsp:include>
+<h3>Welcome</h3>
 
-<h3>Login Success</h3>
 </body>
 </html>
