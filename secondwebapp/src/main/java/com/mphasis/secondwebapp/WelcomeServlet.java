@@ -21,6 +21,8 @@ public class WelcomeServlet extends HttpServlet {
 		
 		out.print("<h3>" + getServletConfig().getInitParameter("mailserverip")+ "<h3>");
 		
+		out.print("<h3>" + getServletConfig().getInitParameter("mailserverip")+ "<h3>");
+		
 	}
 
 }
