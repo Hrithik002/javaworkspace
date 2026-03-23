@@ -4,4 +4,6 @@
 <a href="homecontroller">Home</a>
 <a href="logincontroller">SignIn</a>
 <a href="productcontroller">Products</a>
+<a href="weathercontroller?city=Pune">Pune Weather</a>
+<a href="weathercontroller?city=Delhi">Delhi Weather</a>
 </div>

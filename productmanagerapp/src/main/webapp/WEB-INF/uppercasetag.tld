@@ -1,0 +1,13 @@
+<taglib xmlns="jakarta.ee" version="3.0">
+	<tlib-version>1.0</tlib-version>
+	<short-name>UpperCasetag</short-name>
+	<tag>
+		<name>uppercase</name>
+		<tag-class>com.mphasis.productmanagerapp.customtags.UpperCaseTag</tag-class>
+		<body-content>scriptless</body-content>
+		
+		
+	
+
+		</tag>
+</taglib>

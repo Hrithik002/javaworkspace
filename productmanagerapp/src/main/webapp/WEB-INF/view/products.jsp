@@ -20,8 +20,14 @@ List<ProductModel> products =(List<ProductModel>)request.getAttribute("products"
 <th>Id</th>
 <th>Name</th>
 <th>Price</th>
-</tr>
+<c:forEach items ="${products}"  var ="p">
 
+<tr>
+ <td>${p.id}</td>
+  <td>${p.name}</td>
+   <td>${p.price}</td>
+</tr>
+</c:forEach>
 <%
 for(ProductModel p:products) {
 %>
@@ -31,7 +37,17 @@ for(ProductModel p:products) {
 <td><%=p.getPrice() %></td>
 </tr>
 <%
-}%>
+}
+%>
+<tr>
+<form action ='productcontroller' method='post'> 
+<td><input type ='text' name ='id'></td>
+<td><input type ='text' name ='name'></td>
+<td><input type ='text' name ='price'></td>
+</tr>
+<tr><th colspan='3'><button> Add </button></th>
+</tr>
+</form>
 </table>
 </body>
 </html>
